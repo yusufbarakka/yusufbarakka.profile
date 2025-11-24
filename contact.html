@@ -205,8 +205,10 @@
     <div class="bg-dark-custom p-2 p-lg-5 m-3 m-lg-4 rounded-4">
 
       <nav class="d-flex justify-content-between">
-        <div class="text-light-custom content-title fw-bold" data-aos="fade-right" data-aos-duration="1000">Yusuf Barakka</div>
-
+        <a href="index.html" class="text-light-custom content-title fw-bold d-inline-block text-decoration-none" 
+          data-aos="fade-right" data-aos-duration="1000">
+           Yusuf Barakka
+        </a>
         <button class="menu-toggle-btn btn d-flex align-items-center gap-2" data-aos="fade-left"
           data-aos-duration="1000">
           <span class="text-light-custom fw-bold">MENU</span>
@@ -306,13 +308,13 @@
                   </div>
 
                   <div class="contact-form py-4" data-aos="fade-up" data-aos-delay="100">
-                    <form id="form" class="form-group">
+                    <form id="contact-form" class="form-group">
                       <div class="pb-3"><input type="text" name="name" placeholder="Your Full Name"
                           class="form-control rounded-3 p-3">
                       </div>
-                      <div class="pb-3"><input type="text" name="address" placeholder="Your Email Address"
+                      <div class="pb-3"><input type="email" name="email" placeholder="Your Email Address" placeholder="Your Email Address"
                           class="form-control rounded-3 p-3"></div>
-                      <div class="pb-3"><textarea placeholder="Your Message" rows="6" class="form-control rounded-3 p-3"></textarea>
+                      <div class="pb-3"><textarea name="message" placeholder="Your Message" rows="6" class="form-control rounded-3 p-3"></textarea>
                       </div>
                       <button type="submit" name="submit" class="btn btn-dark w-100 rounded-3 p-3">Submit</button>
                     </form>
@@ -392,6 +394,8 @@
   <script src="js/plugins.js"></script>
   <!-- Script js -->
   <script src="js/script.js"></script>
+  <!-- Script telegram js -->
+   <script src="js/sendMessage.js"></script>
 </body>
 
 </html>
