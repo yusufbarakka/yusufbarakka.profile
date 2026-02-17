@@ -739,3 +739,19 @@ body {
         margin-top: 0;
     }
 }
+
+.main-skills-wrapper {
+  background-color: var(--primary-color); /* hijau sama dengan card */
+  border-radius: 16px;
+  padding: 22px 0;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.main-skills-text {
+  font-family: 'Inter', sans-serif; /* SAMA dengan card title */
+  font-weight: 800;
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
